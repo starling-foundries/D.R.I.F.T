@@ -1,6 +1,6 @@
 # D.R.I.F.T
 Discrete Relational Identity Fragments and Tools
-
+**STATUS:** This is an experimental research project and should not be considered productions software. Contributions of code, and discussion are sought at this time.
 ## Overview
 
 DRIFT is an easy-to-use and understand  toolkit for creating and managing identity fragments. The overarching goal is for users to have portable and contained existances that only initially reveal what is necessary. Allowing users to be the sovereign of their data either through direct control or fair defaults. There are many similar projects across the distributed web and here we intend to primarily interoperate with existing tools in practical and sensible ways. 
@@ -13,6 +13,12 @@ DRIFT is an easy-to-use and understand  toolkit for creating and managing identi
 - web of trust
 - Hub of All Things
 - SOLID
+
+## Modular Elements:
+### Identity-Based Key Exchange
+### Schnorr multisignatures, merklized, BNS
+### Layer2 DID for Zilliqa
+By using Hyperledger-Aires we can provide DIDs for Zilliqa DAPPS with a 'sidetree' pattern in layer 2. Details can be found in the [wiki](https://github.com/decentralized-identity/sidetree/blob/master/docs/protocol.md)
 
 ## Unique offerings
 
